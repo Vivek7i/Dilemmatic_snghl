@@ -1,0 +1,221 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* flex-wrap: wrap; */
+}
+  body{
+    /* background-image:url(https://coolbackgrounds.io/images/backgrounds/index/ranger-4df6c1b6.png); */
+    background-image: url(https://kalyandiocese.com/wp-content/uploads/2015/07/background-learner.jpg);
+    background-size:cover;
+    
+    color: white;
+}
+header{
+    height: 100px;
+    background-color: dodgerblue;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    top: 0; 
+}
+header ul li a{
+    text-decoration: none;
+    color: cornsilk;
+    /* border: 2px solid gray; */
+}
+header form input
+{
+    width: 600px;
+    height: 46px;
+    border: 2px solid;
+}
+header form button
+{
+    width: 40px;
+    height: 46px;
+    color: crimson;
+}
+form.example input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    float: left;
+    width: 80%;
+    background: #f1f1f1;
+  }
+  
+  /* Style the submit button */
+  form.example button {
+    float: left;
+    width: 20%;
+    padding: 10px;
+    background: #2196F3;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none; /* Prevent double borders */
+    cursor: pointer;
+  }
+header li{
+    font-size: 35px;
+    display: inline-block;
+    text-align: center;
+    padding: 30px;
+    text-decoration: none;
+    
+}
+section{
+    height: 328px;
+    border: 2px solid black;
+    background-image: url(0FSyl.jpg);
+    background-size: cover;
+    display: flex;
+    margin: 30px;
+   
+}
+ section .image img{
+     height: 290px;
+     width: 290px;
+     border-radius: 290px;
+     padding: 20px;
+
+}
+ section .logo img{
+     height: 290px;
+     width: 290px;
+     border-radius: 290px;
+     padding:20px;
+     
+}
+section .insta img{
+    height: 70px;
+    width: 200px;
+    padding: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+   
+}
+h1{
+    color: tomato;
+}
+.intr p{
+    text-align: center;
+    padding: 150px;
+
+}
+.intr{
+    margin: 20px;
+    height: 270px;
+    /* width: 100%; */
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+h2{
+    color: saddlebrown;
+}
+article .intra {
+    height:400px ;
+    width: 400px;
+    background-color: blanchedalmond;
+    color:black ;
+    /* margin: 2/0px; */
+    padding: 0px;
+    display: inline-block;
+}
+.ds {
+    height: 500px;
+    width: 500px;
+    padding:0px 50px;
+    display: inline-block;
+}
+.robo {
+    height: 500px;
+    width: 500px;
+    padding:0px 50px;
+    display: inline-block;
+}
+.cp {
+    height: 500px;
+    width: 500px;
+    padding:0px 50px;
+    display: inline-block;
+}
+   .interset{
+    display: flex;
+    height: 400px;
+    /* width: 100%; */
+    border: 2px solid black;
+    margin: 25px;
+}
+article .VIVEK{
+    display: inline-block;
+    height: 200px;
+    width: 500px;
+    background-color: floralwhite;
+    color: black;
+    text-align: center;
+    align-items: center;
+    padding: 20px;
+}
+article .end{
+    height: 240px;
+    width: 100%;
+    border: 2px solid blanchedalmond;
+    display: flex;
+    list-style-type: square;
+}
+article .end ul li {
+    padding: 20px;
+    list-style: square;
+}
+ article .intro{
+     
+     height: 250px;
+     width: 260px;
+     background-color: white;
+     color:black;
+     margin: 5px;
+     padding: 5px;
+     /* display: flex; */
+}
+
+section .name h1{
+display: flex;
+flex-direction: column;
+}
+section .fb img{
+    height: 70px;
+    width: 200px;
+    padding: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+   
+}
+section .mail img{
+    height: 70px;
+    width: 200px;
+    padding: 110px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer .cr p{
+    background-color: darkcyan;
+    border: 2px solid black;
+    height: 50px;
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 20px;
+    padding: 17px;
+}
+
+
